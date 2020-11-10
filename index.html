@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="icon.jpg">
+    <!--owel curosal-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+    <link rel="stylesheet" href="css/icofont.min.css" >
+    <link rel="stylesheet" href="style.css">
+    <title>Hospital Portflio</title>
+  </head>
+  <body class="page">
+  
+    
+    <div id="loading">
+      <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </div>
+     <!--strat Header Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow  bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <h3 class="text-white my-0 py-0 text-uppercase logo">M<i class="fas fa-cog fa-spin " aria-hidden="true"></i>Kassem</h3>
+        </a>
+        <button class="navbar-toggler border-0" type="button" id="collabse">
+              <span class="bar-1 px-3 mb-1 d-block rounded-pill" style="height: 1.5px; width: 10px; background-color: #066772 !important;"></span>
+              <span class="bar-1 px-2 mb-1 d-block rounded-pill" style="height: 1.5px;  width: 9.8px; background-color: #066772 !important;"></span>
+              <span class="bar-1 px-1 mb-1 d-block rounded-pill" style="height: 1.5px; width: 9px; background-color: #066772 !important;"></span>
+        </button>
+        <div class="navbar-collapse" id="navbarcoll">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item ">
+              <a class="nav-link font-weight-bold" onclick="removeLeft()" href="#banner">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" onclick="removeLeft()" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link  font-weight-bold" onclick="removeLeft()" href="#about-us">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" onclick="removeLeft()" href="#our-departments">Departments</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" onclick="removeLeft()" href="#our-team">Our Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" onclick="removeLeft()" href="#premises">Premises</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" onclick="removeLeft()" href="#faq">FAQ's</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button id="app-btn" class="btn rounded-pill text-uppercase bg-white text-main my-2 my-sm-0 shadow-sm" type="submit">Appointment</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+     <!--end Header Navbar-->
+     <!--start Banner-->
+     <div class="jumbotron banner jumbotron-fluid position-relative mb-0" id="banner">
+        <div class="ocean position-absolute">
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <div class="container">
+            <div class="owl-carousel owl-theme owl-busi">
+                <div class="item item-one m-auto">
+                    <article>
+                      <div class="text-white">
+                          <h2 class="heading font-weight-bold">Welcome to Mediyot</h2>
+                          <h1 class="text-white sub-title">Best Care &amp; Better Doctor</h1>
+                          <h5 class="banner-h5">Better health care with efficient cost is the main focuse of our hospital.</h5>
+                        <button  class="btn banner-btn rounded-pill text-uppercase  my-3" type="submit"><span>Learn More</span></button>
+                      </div>
+                    </article>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img class="img-fluid" src="img/banner-img-01.png" alt="banner-img-01" />
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!--end Banner-->
+     <!--start Features-->
+     <div class="features padding-70" id="features">
+        <div class="container">
+          <article class="text-center main-article mb-5">
+             <h3 class="font-weight-bold  font-family-ex text-main">Our Features</h3>
+             <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+          </article>
+          <div class="row py-3 mt-5">
+            <div class="col-md-4">
+              <div class="card  shadow-sm mt-2">
+                <div class="card-body text-center py-5">
+                  <div class="icon shadow-sm position-absolute">
+                    <i class="fas fa-user-injured"></i>
+                  </div>
+                   <h5 class="card-title">Emergency Care</h5>
+                   <p class="card-text">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card  shadow-sm mt-2">
+                <div class="card-body text-center py-5">
+                  <div class="icon shadow-sm position-absolute">
+                    <i class="fas fa-stethoscope"></i>
+                  </div>
+                   <h5 class="card-title">Qualified Doctors</h5>
+                   <p class="card-text">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card  shadow-sm mt-2">
+                <div class="card-body text-center py-5">
+                  <div class="icon shadow-sm position-absolute">
+                    <i class="far fa-clock"></i>
+                  </div>
+                   <h5 class="card-title">24/7 Hours Service</h5>
+                   <p class="card-text">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <!--start Features-->
+     <!--start About us-->
+     <div class="about-us padding-70 position-relative" id="about-us">
+      <div class="wav-svg position-absolute">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#f1f1f1" fill-opacity="1" d="M0,160L40,144C80,128,160,96,240,80C320,64,400,64,480,58.7C560,53,640,43,720,37.3C800,32,880,32,960,48C1040,64,1120,96,1200,101.3C1280,107,1360,85,1400,74.7L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+        </svg>
+      </div>
+       <div class="container">
+         <div class="row">
+           <div class="col-md-8 col-lg-6">
+            <article class=" mb-4">
+              <h3 class="font-weight-bold  font-family-ex text-main">About us</h3>
+              <h2 class="text-black  font-family-ex">50 Years of Experience in Medical</h2>
+              <p class="text-black">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since the been when an unknown printer. This is simply dummy text of the printing and type setting industry.</p>
+            </article>
+            <aside>
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-about shadow-sm">
+                    <i class="fas fa-users d-block"></i>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="text-about">
+                    <h5 class="font-weight-bold  font-family-ex text-main">Professional Staff</h5>
+                    <p class="text-black">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <aside>
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-about shadow-sm">
+                    <i class="fas fa-check"></i>
+                  </div>
+                </div>
+                <div class="col-10 ">
+                  <div class="text-about">
+                    <h5 class="font-weight-bold  font-family-ex text-main">98% Success Rate</h5>
+                    <p class="text-black">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <aside>
+              <div class="row">
+                <div class="col-2">
+                  <div class="icon-about shadow-sm">
+                    <i class="fas fa-award"></i>
+                  </div>
+                </div>
+                <div class="col-10 ">
+                  <div class="text-about">
+                    <h5 class="font-weight-bold  font-family-ex text-main">Modern Equipments</h5>
+                    <p class="text-black">This is simply dummy text of the printing and typesetting industry has been the industry's standard dummy text ever since</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+           </div>
+           <div class="col-md-4 col-lg-6">
+             <div class="img-doc">
+               <img class="img-fluid" alt="idoc" src="img/doc.png">
+             </div>
+           </div>
+         </div>
+
+       </div>
+     </div>
+     <!--end About us-->
+     <!--start Our Departments-->
+     <div class="our-departments padding-70" id="our-departments">
+         <div class="container">
+            <article class="text-center main-article mb-5">
+              <h3 class="font-weight-bold  font-family-ex text-main">Our Departments</h3>
+              <p class="text-black">There are many variations of passages of Lorem Ipsum available, 
+                but the majority have suffered alteration in some form.</p>
+            </article>
+            <div class="cards py-5">
+              <div class="row">
+                 <div class="col-md-6 col-sm-6 col-lg-4">
+                  <div class="card shadow-sm border-0  mt-2 position-relative">
+                    <div class="img-dep position-static">
+                      <img src="img/D-P1.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="d-icon mx-auto">
+                        <i class="fas fa-heartbeat"></i>
+                      </div>
+                      <div class="text">
+                        <h5 class="card-title">Cardiology</h5>
+                        <p class="card-text font-italic">
+                          This is simply dummy text of the printing and typesetting industry 
+                          has been the industry's standard dummy text ever since the been when
+                          an unknown printer. This is simply dummy text of the printing and
+                          typesetting.</p>
+                      </div>
+                      <div class="btns d-flex justify-content-center">
+                        <button class="btn  rounded-pill mr-1 bg-white text-main shadow-sm"><i class="fas fa-envelope"></i> Contact</button>
+                        <button class="btn  rounded-pill ml-1 bg-main text-white shadow-sm"><i class="far fa-heart"></i> support</button>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6  col-lg-4">
+                  <div class="card shadow-sm border-0  mt-2 position-relative">
+                    <div class="img-dep position-static">
+                      <img src="img/D-P2.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="d-icon mx-auto">
+                        <i class="fas fa-procedures"></i>
+                      </div>
+                      <div class="text">
+                        <h5 class="card-title">Cardiology</h5>
+                        <p class="card-text font-italic">
+                          This is simply dummy text of the printing and typesetting industry 
+                          has been the industry's standard dummy text ever since the been when
+                          an unknown printer. This is simply dummy text of the printing and
+                          typesetting.</p>
+                      </div>
+                      <div class="btns d-flex justify-content-center">
+                        <button class="btn  rounded-pill mr-1 bg-white text-main shadow-sm"><i class="fas fa-envelope"></i> Contact</button>
+                        <button class="btn  rounded-pill ml-1 bg-main text-white shadow-sm"><i class="far fa-heart"></i> support</button>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4">
+                  <div class="card shadow-sm border-0  mt-2 position-relative">
+                    <div class="img-dep position-static">
+                      <img src="img/D-P3.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="d-icon mx-auto">
+                        <i class="fas fa-brain"></i>
+                      </div>
+                      <div class="text">
+                        <h5 class="card-title">Orthopedics</h5>
+                        <p class="card-text font-italic">
+                          This is simply dummy text of the printing and typesetting industry 
+                          has been the industry's standard dummy text ever since the been when
+                          an unknown printer. This is simply dummy text of the printing and
+                          typesetting.</p>
+                      </div>
+                      <div class="btns d-flex justify-content-center">
+                        <button class="btn  rounded-pill mr-1 bg-white text-main shadow-sm"><i class="fas fa-envelope"></i> Contact</button>
+                        <button class="btn  rounded-pill ml-1 bg-main text-white shadow-sm"><i class="far fa-heart"></i> support</button>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4">
+                  <div class="card shadow-sm border-0  mt-2 position-relative">
+                    <div class="img-dep position-static">
+                      <img src="img/D-P5.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="d-icon mx-auto">
+                        <i class="fas fa-virus"></i>
+                      </div>
+                      <div class="text">
+                        <h5 class="card-title">Orthopedics</h5>
+                        <p class="card-text font-italic">
+                          This is simply dummy text of the printing and typesetting industry 
+                          has been the industry's standard dummy text ever since the been when
+                          an unknown printer. This is simply dummy text of the printing and
+                          typesetting.</p>
+                      </div>
+                      <div class="btns d-flex justify-content-center">
+                        <button class="btn  rounded-pill mr-1 bg-white text-main shadow-sm"><i class="fas fa-envelope"></i> Contact</button>
+                        <button class="btn  rounded-pill ml-1 bg-main text-white shadow-sm"><i class="far fa-heart"></i> support</button>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4">
+                  <div class="card shadow-sm border-0 mt-2 position-relative">
+                    <div class="img-dep position-static">
+                      <img src="img/D-P6.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="d-icon mx-auto">
+                        <i class="fas fa-tooth"></i>
+                      </div>
+                      <div class="text">
+                        <h5 class="card-title">Orthopedics</h5>
+                        <p class="card-text font-italic">
+                          This is simply dummy text of the printing and typesetting industry 
+                          has been the industry's standard dummy text ever since the been when
+                          an unknown printer. This is simply dummy text of the printing and
+                          typesetting.</p>
+                      </div>
+                      <div class="btns d-flex justify-content-center">
+                        <button class="btn  rounded-pill mr-1 bg-white text-main shadow-sm"><i class="fas fa-envelope"></i> Contact</button>
+                        <button class="btn  rounded-pill ml-1 bg-main text-white shadow-sm"><i class="far fa-heart"></i> support</button>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-4">
+                  <div class="card shadow-sm border-0  mt-2 position-relative">
+                    <div class="img-dep position-static">
+                      <img src="img/D-P4.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                      <div class="d-icon mx-auto">
+                        <i class="fas fa-stethoscope"></i>
+                      </div>
+                      <div class="text">
+                        <h5 class="card-title">Orthopedics</h5>
+                        <p class="card-text font-italic">
+                          This is simply dummy text of the printing and typesetting industry 
+                          has been the industry's standard dummy text ever since the been when
+                          an unknown printer. This is simply dummy text of the printing and
+                          typesetting.</p>
+                      </div>
+                      <div class="btns d-flex justify-content-center">
+                        <button class="btn  rounded-pill mr-1 bg-white text-main shadow-sm"><i class="fas fa-envelope"></i> Contact</button>
+                        <button class="btn  rounded-pill ml-1 bg-main text-white shadow-sm"><i class="far fa-heart"></i> support</button>
+                      </div>
+                    </div>
+                     
+                  </div>
+                </div>
+              </div>
+            </div>
+         </div>
+     </div>
+     <!--end Our Departments-->
+     <!--start Patient Reviews-->
+     <div class="pat-rev padding-70 position-relative">
+       <div class="container">
+        <article class="text-center main-article">
+          <h3 class="font-weight-bold  font-family-ex text-white">Patient Reviews</h3>
+          <p class="text-white" style="opacity: 1;">
+            There are many variations of passages of Lorem Ipsum available, 
+            but the majority have suffered alteration in some form.
+          </p>
+        </article>
+        <div class="auto-slide">
+          <div class="slider bg-transparent">
+            <div class="slide-track">
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" alt="feedback" src="img/feedback-1.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12 ">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main  font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" src="img/feedback-2.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" src="img/feedback-3.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" src="img/feedback-2.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" src="img/feedback-1.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main  font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" src="img/feedback-3.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="card shadow-sm">
+                  <div class="after"></div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-3 col-12">
+                        <div class="img-feadback">
+                          <img class="rounded-circle" src="img/feedback-1.jpg">
+                        </div>
+                      </div>
+                      <div class="col-sm-9 col-12">
+                        <div class="pl-3">
+                          <p class="card-text font-title"> consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                           <h6 class="font-weight-bold text-main font-family-ex">
+                             Alex Smith
+                           </h6>
+                           <span class="font-family-ex text-black-50">UI/ux</span>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+       </div>
+     </div>
+     <!--end Patient Reviews-->
+     <!--start Our Team -->
+      <div class="our-team padding-70" id="our-team">
+          <div class="container">
+            <article class="text-center main-article mb-5">
+              <h3 class="font-weight-bold  font-family-ex text-main">Meet Our Experienced Doctors</h3>
+              <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+           </article>
+           <div class="doctors">
+             <div class="row">
+               <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                     <div class="img">
+                      <img src="img/doc-1.jpg" class="card-img-top" alt="...">
+                     </div>
+                      <div class="card-img-overlay">
+                        <h5 class="card-title text-main font-family-ex">Dr. Mark Jacobson</h5>
+                        <h6 class="card-title text-black-50 font-italic">Dental Specialist</h6>
+                        <p class="">Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante .</p>
+                      </div>
+                    
+                
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                     <div class="img">
+                      <img src="img/doc-3.jpg" class="card-img-top" alt="...">
+                     </div>
+                      <div class="card-img-overlay">
+                        <h5 class="card-title text-main font-family-ex">Dr. Alex Davidson</h5>
+                        <h6 class="card-title text-black-50 font-italic">Neurologist & Surgeon</h6>
+                        <p class="">Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante .</p>
+                      </div>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <div class="card border-0 shadow-sm">
+                     <div class="img">
+                      <img src="img/doc-4.jpg" class="card-img-top" alt="...">
+                     </div>
+                      <div class="card-img-overlay">
+                        <h5 class="card-title text-main font-family-ex">Dr. Anym Jackson</h5>
+                        <h6 class="card-title text-black-50 font-italic">Cardiologist & Surgeon</h6>
+                        <p class="">Etiam dignissim sit amet felis ac sagittis. Sed libero arcu, pharetra et ante .</p>
+                      </div>
+                    
+                
+                </div>
+               </div>
+             </div>
+           </div>
+          </div>
+      </div>
+     <!--start Our Experienced Team-->
+     <!--start Facilities and Premises-->
+     <div class="premises padding-70" id="premises">
+       <div class="container">
+         <article class="text-center main-article mb-5">
+            <h3 class="font-weight-bold  font-family-ex text-main">Facilities and Premises</h3>
+            <p class="text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+         </article>
+         <div>
+          <div class="owl-carousel owl-theme owl-business">
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/1.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/2.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/3.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/4.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/3.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/4.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/5.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/3.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/4.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/5.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card border-0 shadow-sm" >
+                <img src="img/4.jpg" class="card-img-top img-fluid" alt="...">
+              </div>
+            </div>
+           
+          </div>
+         </div>
+       </div>
+     </div>
+     <!--end Facilities and Premises-->  
+     <!--start Contacet-->
+     <div class="contacet bg-main">
+        <div class="row">
+          <div class="col-md-4 col-xl-5 img pr-0 img-conte">
+           
+          </div>
+          <div class="col-md-8 col-xl-7 pl-0 ">
+            <article class="main-article position-relative py-3 pl-md-0 ">
+              <h3 class="font-weight-bold  font-family-ex text-white pl-3">Facilities and Premises</h3>
+           </article>
+            <div class="form-content card  bg-main">
+              <div class="card-body px-md-3 pl-5">
+                <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <input type="text" class="form-control" placeholder="Full Name" id="name">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input type="email" class="form-control" placeholder="Email" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input type="text" class="form-control" placeholder="Phone Number" id="phone">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <input  type="text" class="form-control" placeholder="Booking Date" id="booking-date">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <select class="form-control">
+                        <option>Department</option>
+                        <option>Default select</option>
+                        <option>Default select</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                      <select class="form-control">
+                        <option>Department</option>
+                        <option>Default select</option>
+                        <option>Default select</option>
+                      </select>
+                    </div>
+                    <div class="form-group col-md-12">
+                      <textarea class="form-control" placeholder="message" rows="4"></textarea>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn bg-white text-main mt-2">Book Now</button>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+        
+    </div>
+    <!--end Contacet-->
+    <!--start Frequently Asked-->
+    <div class="padding-70 faq position-relative" id="faq">
+      <div class="wav-svg position-absolute">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path fill="#f1f1f1" fill-opacity="1" d="M0,160L40,144C80,128,160,96,240,80C320,64,400,64,480,58.7C560,53,640,43,720,37.3C800,32,880,32,960,48C1040,64,1120,96,1200,101.3C1280,107,1360,85,1400,74.7L1440,64L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path>
+        </svg>
+      </div>
+     
+      <div class="container">
+        <article class="text-center main-article">
+          <h3 class="font-weight-bold  font-family-ex text-main">Frequently Asked</h3>
+          <p class="text-black">
+            There are many variations of passages of Lorem Ipsum available, 
+            but the majority have suffered alteration in some form.
+          </p>
+        </article>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header bg-main" id="headingOne">
+                  <h2 class="mb-0">
+                    <button class="btn text-white shadow-none btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     1.Lorem ipsum dolor sit amet
+                    </button>
+                  </h2>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header bg-main" id="headingTwo">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      2.enim eiusmod high life accusamus
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header bg-main" id="headingThree">
+                  <h2 class="mb-0">
+                    <button class="btn btn-link text-white btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      3.Anim pariatur cliche reprehenderit
+                    </button>
+                  </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" src="img/doc-s.png">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <!--start footer-->
+    <div class="footer">
+      <div class="container">
+        <article class="text-center main-article">
+          <h3 class="font-weight-bold  font-family-ex text-white">Patient Reviews</h3>
+          <p class="text-white" style="opacity: 1;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          </p>
+          <div class="d-flex justify-content-center">
+            <div>
+              <form class="form-inline mt-2 rounded-pill bg-white">
+                <input class="form-control border-0 rounded-pill" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn bg-main text-white  rounded-pill" type="submit">Search</button>
+              </form>
+            </div>
+           
+          </div>
+         
+        </article>
+        <div class="row mt-4">
+          <div class="col-md-4 col-sm-6 col-md-4">
+            <a class="navbar-brand" href="#"><h3 class="text-white my-0 py-0 text-uppercase logo">M<i class="fas fa-cog fa-spin " aria-hidden="true"></i>Kassem</h3></a>
+            <p class="text-white mt-3" style="opacity: 1;">
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+            <ul class="list-inline social">
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/mohamed.samer.1441">
+                 <i class="fab fa-facebook-f"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/mhmdsmyr1967/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.linkedin.com/in/mohamed-samir-202780179/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://github.com/MuhammedSamir">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-6 col-md-2">
+            <h5 class="text-white font-weight-bold mb-4">
+              Quick Links
+            </h5>
+            <ul class="list-unstyled ml-2">
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#banner">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#features">Features</a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#about-us">About Us</a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#our-departments">Departments</a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#our-team">Our Team</a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#premises">Premises</a>
+              </li>
+              <li class="">
+                <a class="text-light " style="letter-spacing: 1px; font-weight: 500;" href="#faq">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-6 col-md-2">
+            <h5 class="text-white font-weight-bold mb-4">
+              Useful Links
+            </h5>
+            <ul class="list-unstyled ml-2">
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#banner">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#features">Features</a>
+              </li>
+              
+              <li class="">
+                <a class="text-light " style="letter-spacing: 1px; font-weight: 500;" href="#faq">FAQ's</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 col-sm-6 col-md-4">
+            <h5 class="text-white font-weight-bold mb-4">
+              Quick Contact
+            </h5>
+            <ul class="list-unstyled ml-2">
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="https://goo.gl/maps/otWtXkpQn38shdsGA"><i class="fas fa-map-marker-alt"></i> Agouza, Giza Governorate</a>
+              </li>
+              <li class="">
+                <a class="text-light  mb-2" style="letter-spacing: 1px; font-weight: 500;"  href="#"><i class="far fa-envelope"></i> mdsms7535@gmail.com</a>
+              </li>
+              
+              <li class="">
+                <a class="text-light " style="letter-spacing: 1px; font-weight: 500;" href="#faq"><i class="fas fa-phone"></i> +201124295729</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyRight text-center text-white border-top py-2">
+          <small>copyRight © 2020. Design by  <a class="navbar-brand" href="https://www.linkedin.com/in/mohamed-samir-202780179/"><h3 class="text-white my-0 py-0 text-uppercase logo">M<i class="fas fa-cog fa-spin " aria-hidden="true"></i>Kassem</h3></a></small>
+      </div>
+      </div>
+      
+    </div>
+ 
+    <!--end Frequently Asked-->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!--owel cursal-->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--main script-->
+    <script src="js/script.js"></script>
+</body>
+</html>
